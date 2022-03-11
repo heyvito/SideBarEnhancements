@@ -40,5 +40,7 @@
 		"command": "side_bar_move",
 		"args": { "paths": [] }
 	},
+	{ "caption": "Delete File", "command": "delete_file", "args": {"files": [], "prompt": true} },
+	{ "caption": "Delete Folder", "command": "delete_folder", "args": {"dirs": [], "prompt": true} },
 	{ "caption": "-", "id": "side-bar-rename-move-separator" }
 ]

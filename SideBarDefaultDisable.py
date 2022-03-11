@@ -55,3 +55,10 @@ class OpenContainingFolderCommand(sublime_plugin.WindowCommand):
 
     def is_enabled(self):
         return False
+
+class OpenFolderCommand(sublime_plugin.WindowCommand):
+    def is_visible(self):
+        return False
+
+    def is_enabled(self):
+        return False
